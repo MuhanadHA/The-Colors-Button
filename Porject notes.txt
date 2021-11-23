@@ -1,0 +1,19 @@
+//notes
+* h1.querySelector(.h1).textContent ->this will get you the content of h1
+
+*I did not manage to make true random numbers ,I searched and found some useful stuff but did not know how to implement it to my code,+ it's felt too much work for a simple site anyway... but I'll definitely look it up, and I saved the sites I found for feature reference.
+
+//what I did ((a guide through the code))
+HTML:
+I made a container that have an header and a button.
+
+CSS:
+I changed the font of the hole body, I then text aligned the contents of the container and put a 50% margin top so the content is centered in the middle of the site, then I just styled the header and the button to give esthetics to the site.
+
+JS:
+Used the dom to get the body, the header and the button, created an array containing the colors that we will use, then added the default black background to the body,then added an event listener for the button listening for a click and calling a function called "changeColor"
+changeColor will generate a random number whenever the function is called, then the number is used as an index to the color array to get a color , after that the color is displayed as the background of the body. 
+
+This was the first site of a 100 JS mini projects.
+
+the goal: get better at coding with JS and improve as a beginner web developer.
